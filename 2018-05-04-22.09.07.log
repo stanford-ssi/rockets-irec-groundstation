@@ -1,0 +1,56 @@
+Opening Log: 2018-05-04-22.09.07.log
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.377647, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 145, "rx_code": 1, "groundTime": "Fri May  4 22:09:08 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.338823, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 142, "rx_code": 1, "groundTime": "Fri May  4 22:09:09 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.455294, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 147, "rx_code": 1, "groundTime": "Fri May  4 22:09:14 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.377647, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 143, "rx_code": 1, "groundTime": "Fri May  4 22:09:15 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.455294, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 143, "rx_code": 1, "groundTime": "Fri May  4 22:09:20 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.338823, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 153, "rx_code": 1, "groundTime": "Fri May  4 22:09:21 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.455294, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 95, "rx_code": 1, "groundTime": "Fri May  4 22:09:34 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.377647, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 103, "rx_code": 1, "groundTime": "Fri May  4 22:09:35 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.416471, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 114, "rx_code": 1, "groundTime": "Fri May  4 22:09:41 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.416471, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 115, "rx_code": 1, "groundTime": "Fri May  4 22:09:46 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.377647, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 127, "rx_code": 1, "groundTime": "Fri May  4 22:09:51 2018"}
+There were errors
+
+Corrected successfully.
+
+Sydrome: 2301151452008434249862381955190,
+
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -129.986038, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.338823, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 98, "rx_code": 3, "syndrome": "2301151452008434249862381955190,", "groundTime": "Fri May  4 22:09:56 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.377647, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 97, "rx_code": 1, "groundTime": "Fri May  4 22:10:01 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.3, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 116, "rx_code": 1, "groundTime": "Fri May  4 22:10:06 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.338823, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 108, "rx_code": 1, "groundTime": "Fri May  4 22:10:11 2018"}
+There were errors
+
+Uncorrectable Errors!
+
+Sydrome: 20917733147253237751141663944112,
+
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.377647, "vsense2": 0.038824, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 125, "rx_code": 1, "groundTime": "Fri May  4 22:10:41 2018"}
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.338823, "vsense2": 0, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 120, "rx_code": 1, "groundTime": "Fri May  4 22:10:46 2018"}
+There were errors
+
+Uncorrectable Errors!
+
+Sydrome: 13394155193137210156228191244164236,
+
+There were errors
+
+Corrected successfully.
+
+Sydrome: 61232541481165216222398593219,
+
+{"packet_num": 0, "altitude": -2000, "sb_state": 0, "battery": 3, "lat": 30.0, "lon": -130.0, "gps_lock": 0, "strato_alt": -0.427259, "vsense1": 3.338823, "vsense2": 0.077647, "payload_armed": 0, "skybass_alive": 0, "skybass_armed": 0, "boom_cmd": false, "payload_cmd": true, "rssi": 126, "rx_code": 3, "syndrome": "61232541481165216222398593219,", "groundTime": "Fri May  4 22:10:58 2018"}
+There were errors
+
+Uncorrectable Errors!
+
+Sydrome: 43162171144791499322921921917137,
+
+There were errors
+
+Uncorrectable Errors!
+
+Sydrome: 6619423123215821093411822620728,
+
+

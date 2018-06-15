@@ -6,7 +6,7 @@ import sys
 
 
 def main():
-    serial = pySerial.Serial("COM13", 115200)
+    serial = pySerial.Serial("COM26", 115200)
 
     gpsPath = []
 
