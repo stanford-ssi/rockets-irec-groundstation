@@ -6,6 +6,8 @@ import time
 import sys
 import os
 
+plt.style.use('dark_background')
+
 def plotData(data):
     times.append(time.time()-startTime)
     altitude.append(data[u'altitude'])
