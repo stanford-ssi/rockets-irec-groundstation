@@ -7,7 +7,6 @@ import sys
 import os
 
 def plotData(data):
-    fig.suptitle('Stanford SSI IREC 2018 Groundstation')
     times.append(time.time()-startTime)
     altitude.append(data[u'altitude'])
     battery.append(data[u'battery'])
@@ -18,48 +17,56 @@ def plotData(data):
     charges_blown.append(data[u'charges_blown'])
     max_t = times[len(times)-1]
 
-    alt_ax = plt.subplot(2,4,1)
-    alt_ax.set_title('Altitude (m)')
-    alt_ax.set_ylabel('Altitude (m)')
-    alt_ax.set_xlabel('Time (s)')
+    img_ax = plt.subplot(3,1,1)
+    img_ax.axis('off')
+    img_ax.imshow(logo)
+
+    alt_ax = plt.subplot(3,4,5)
+    alt_ax.set_title('Altitude (m)',**font)
+    alt_ax.set_ylabel('Altitude (m)',**font)
+    alt_ax.set_xlabel('Time (s)',**font)
     alt_gr = plt.plot(times,altitude,'r')[0]
     #alt_ax.xla
 
-    batt_ax = plt.subplot(2,4,2)
-    batt_ax.set_title('Skybass Battery Voltage (V)')
-    batt_ax.set_ylabel('Voltage (V)')
-    batt_ax.set_xlabel('Time (s)')
+    batt_ax = plt.subplot(3,4,6)
+    batt_ax.set_title('Skybass Battery Voltage (V)',**font)
+    batt_ax.set_ylabel('Voltage (V)',**font)
+    batt_ax.set_xlabel('Time (s)',**font)
     batt_gr = plt.plot(times,battery,'r')[0]
 
-    v1_ax = plt.subplot(2,4,3)
-    v1_ax.set_title('Stratologger Battery Voltage (V)')
-    v1_ax.set_ylabel('Voltage (V)')
-    v1_ax.set_xlabel('Time (s)')
+    v1_ax = plt.subplot(3,4,7)
+    v1_ax.set_title('Stratologger Battery Voltage (V)',**font)
+    v1_ax.set_ylabel('Voltage (V)',**font)
+    v1_ax.set_xlabel('Time (s)',**font)
     v1_gr = plt.plot(times,vsense1,'r')[0]
 
-    v2_ax = plt.subplot(2,4,4)
-    v2_ax.set_title('Raven Battery Voltage (V)')
-    v1_ax.set_ylabel('Voltage (V)')
-    v1_ax.set_xlabel('Time (s)')
+    v2_ax = plt.subplot(3,4,8)
+    v2_ax.set_title('Raven Battery Voltage (V)',**font)
+    v1_ax.set_ylabel('Voltage (V)',**font)
+    v1_ax.set_xlabel('Time (s)',**font)
     v2_gr = plt.plot(times,vsense2,'r')[0]
 
-    rssi_ax = plt.subplot(2,4,5)
-    rssi_ax.set_title('RSSI')
-    rssi_ax.set_ylabel('RSSI')
-    rssi_ax.set_xlabel('Time (s)')
+    rssi_ax = plt.subplot(3,4,9)
+    rssi_ax.set_title('RSSI',**font)
+    rssi_ax.set_ylabel('RSSI',**font)
+    rssi_ax.set_xlabel('Time (s)',**font)
     rssi_gr = plt.plot(times,rssi,'r')[0]
 
-    gps_ax = plt.subplot(2,4,6)
-    gps_ax.set_title('GPS Lock Enable')
-    gps_ax.set_ylabel('GPS Enable?')
-    gps_ax.set_xlabel('Time (s)')
+    gps_ax = plt.subplot(3,4,10)
+    gps_ax.set_title('GPS Lock Enable',**font)
+    gps_ax.set_ylabel('GPS Enable?',**font)
+    gps_ax.set_xlabel('Time (s)',**font)
+    gps_ax.set_ylim(0,1)
     gps_gr = plt.plot(times,gps_lock,'b')[0]
 
-    charges_ax = plt.subplot(2,4,7)
-    charges_ax.set_title('Charges Enable')
-    gps_ax.set_ylabel('Charges Blown?')
-    gps_ax.set_xlabel('Time (s)')
+    charges_ax = plt.subplot(3,4,11)
+    charges_ax.set_title('Charges Enable',**font)
+    charges_ax.set_ylabel('Charges Blown?',**font)
+    charges_ax.set_xlabel('Time (s)',**font)
+    charges_ax.set_ylim(0,1)
     charges_gr = plt.plot(times,charges_blown,'b')[0]
+
+    plt.subplots_adjust(hspace=0.55,wspace=0.35)
 
     plt.draw()
 
@@ -75,12 +82,12 @@ def main():
     battery = [0]
     charges_blown = [0]
     gps_lock = [0]
-
+    font = {'fontname':'Tahoma'}
     fig = plt.figure()
-
+    fig.canvas.set_window_title('Stanford SSI IREC 2018 Groundstation')
     times = [time.time()-startTime]
-
     min_t = times[0]
+    logo = plt.imread('logo.png')
 
     gpsPath = []
 
